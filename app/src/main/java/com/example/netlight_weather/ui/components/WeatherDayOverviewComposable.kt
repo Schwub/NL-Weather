@@ -30,6 +30,7 @@ fun WeatherDayOverviewComposable(
         horizontalAlignment = Alignment.CenterHorizontally
     ){
         Text(text = day)
+        Spacer(modifier = Modifier.height(4.dp))
         Image(painter = painterResource(id = icon), contentDescription = "Weather Icon")
         Spacer(modifier = Modifier.height(4.dp))
         Text(text = "$maxTemperature °")
