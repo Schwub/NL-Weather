@@ -33,7 +33,11 @@ fun WeatherDayOverviewComposable(
     ){
         Text(text = day, style = MaterialTheme.typography.labelLarge)
         Spacer(modifier = Modifier.height(4.dp))
-        Image(painter = painterResource(id = icon), contentDescription = "Weather Icon")
+        Image(
+            painter = painterResource(id = icon),
+            contentDescription = "Weather Icon",
+            Modifier.height(40.dp)
+        )
         Spacer(modifier = Modifier.height(4.dp))
         Text(
             text = "$maxTemperature °", style = MaterialTheme.typography.labelMedium)

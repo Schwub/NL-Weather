@@ -17,9 +17,3 @@ fun WeatherWeekOverviewComposable(weatherDayOverviewInputs: List<WeatherDayOverv
         }
     }
 }
-
-@Preview
-@Composable
-fun PreviewWeatherWeekOverviewComposable() {
-    WeatherWeekOverviewComposable(weatherDayOverviewInputs = previewData)
-}
