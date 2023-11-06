@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -29,7 +28,7 @@ fun WeatherDayOverviewComposable(
     Column (
         modifier = Modifier
             .padding(4.dp)
-            .width(60.dp),
+            .width(80.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
         Text(text = day, style = MaterialTheme.typography.labelLarge)

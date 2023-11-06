@@ -40,7 +40,7 @@ val Typography = Typography(
     ),
     labelMedium = TextStyle(
         fontWeight = FontWeight.SemiBold,
-        fontSize = 12.sp,
+        fontSize = 14.sp,
         lineHeight = 16.sp,
         letterSpacing = 0.5.sp
     )
