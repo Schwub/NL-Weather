@@ -5,6 +5,9 @@
       <entry key="PreviewWeatherDayOverviewComposable">
         <State />
       </entry>
+      <entry key="PreviewWeatherLocationCardComposable">
+        <State />
+      </entry>
       <entry key="PreviewWeatherWeekOverviewComposable">
         <State />
       </entry>
